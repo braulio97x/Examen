@@ -10,10 +10,10 @@
 </body> 
 <h:form>
 
-Monto: <h:inputText value="#{creditoBean.newCredito.monto}" />
-NumMeses:<h:inputText value="#{creditoBean.newCredito.numMeses}" />
-FechaPrimerPago: <h:inputText value="#{creditoBean.newCredito.fechaPrimerPago}" />
-idCliente: <h:inputText value="#{creditoBean.newCredito.cliente.cedula}" />
-<h:commandButton action="#{creditoBean.guardarCredito()}" value="Guardar" />
+codUniver: <h:inputText value="#{universidadBean.newUniversidad.codUni}" />
+Nombre:<h:inputText value="#{universidadBean.newUniversidad.nombre}" />
+Direcciom: <h:inputText value="#{universidadBean.newUniversidad.direccion}" />
+Telefono: <h:inputText value="#{universidadBean.newUniversidad.telefono}" />
+<h:commandButton action="#{universidadBean.guardarUniversidad()}" value="Guardar" />
 </h:form>
 </html>
