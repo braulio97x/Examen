@@ -2,13 +2,13 @@ HOLA {{usuario}}
 <form>
 
     <label>CodCarrera</label>
-    <input name="txtCodCar" type="text" [(ngModel)]="">
+    <input name="txtCodCar" type="text" [(ngModel)]="carreras.codCar">
 
     <label>Nombre</label>
-    <input name="txtNombre" type="text" [(ngModel)]="contacto.nombre" >
+    <input name="txtNombre" type="text" [(ngModel)]="carreras.nombre" >
 
     <label>directorCarrera</label>
-    <input name="txtDirCar" type="text" [(ngModel)]="contacto.apellido">
+    <input name="txtDirCar" type="text" [(ngModel)]="carreras.dirCarrera">
 
     <button (click)="guardar()">Guardar</button>
 

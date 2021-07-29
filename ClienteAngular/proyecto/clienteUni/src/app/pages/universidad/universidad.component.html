@@ -2,16 +2,16 @@ HOLA {{usuario}}
 <form>
 
     <label>CodUniversidad</label>
-    <input name="txtCodUni" type="text" [(ngModel)]="contacto.cedula">
+    <input name="txtCodUni" type="text" [(ngModel)]="universidades.codUni">
 
     <label>Nombre</label>
-    <input name="txtNombre" type="text" [(ngModel)]="contacto.nombre" >
+    <input name="txtNombre" type="text" [(ngModel)]="universidades.nombre" >
 
     <label>Direccion</label>
-    <input name="txtDir" type="text" [(ngModel)]="contacto.apellido">
+    <input name="txtDir" type="text" [(ngModel)]="universidades.direccion">
 
     <label>Telefono</label>
-    <input name="txtTel" type="text" [(ngModel)]="contacto.apellido">
+    <input name="txtTel" type="text" [(ngModel)]="universidades.telefono">
 
     <button (click)="guardar()">Guardar</button>
 
