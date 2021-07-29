@@ -1,0 +1,47 @@
+package ups.edu.examen.services.modelo;
+
+import java.sql.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class UniversidadTemp {
+
+	private int codUni;
+	private String nombre;
+	private String direccion;
+	private String telefono;
+
+	public int getCodUni() {
+		return codUni;
+	}
+
+	public void setCodUni(int codUni) {
+		this.codUni = codUni;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+
+}
