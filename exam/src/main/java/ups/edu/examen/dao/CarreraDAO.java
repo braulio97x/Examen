@@ -33,7 +33,7 @@ public class CarreraDAO {
 		em.remove(p);
 	}
 
-	public List<Carrera> getClientes(String nombre){
+	public List<Carrera> getCarreras(String nombre){
 		
 		String jpql2="SELECT p FROM Carrera p WHERE nombre LIKE ?1";
 		
