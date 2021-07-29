@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head></h:head>
+<body>
+	<h1>Listado de carreras</h1>
+	<h:dataTable value="#{carreraBean.carreras}" var="carrera"> 
+	<h:column>
+	<f:facet name="header">CodCarrera</f:facet>
+	#{carrera.codCar}
+	</h:column>
+	<h:column>
+	<f:facet name="header">Nombre</f:facet>
+	#{carrera.nombre}
+	</h:column>
+	<h:column>
+	<f:facet name="header">Direccion</f:facet>
+	#{carrera.dirCarrera}
+	</h:column>
+	
+	</h:dataTable>
+</body>
+</html>
