@@ -1,0 +1,16 @@
+HOLA {{usuario}}
+<form>
+
+    <label>Cedula</label>
+    <input name="txtCedula" type="text" [(ngModel)]="contacto.cedula">
+
+    <label>Nombre</label>
+    <input name="txtNombre" type="text" [(ngModel)]="contacto.nombre" >
+
+    <label>Apellido</label>
+    <input name="txtApellido" type="text" [(ngModel)]="contacto.apellido">
+
+    <button (click)="guardar()">Guardar</button>
+
+
+</form>
