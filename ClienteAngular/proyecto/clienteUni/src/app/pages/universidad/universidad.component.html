@@ -1,14 +1,17 @@
 HOLA {{usuario}}
 <form>
 
-    <label>Cedula</label>
-    <input name="txtCedula" type="text" [(ngModel)]="contacto.cedula">
+    <label>CodUniversidad</label>
+    <input name="txtCodUni" type="text" [(ngModel)]="contacto.cedula">
 
     <label>Nombre</label>
     <input name="txtNombre" type="text" [(ngModel)]="contacto.nombre" >
 
-    <label>Apellido</label>
-    <input name="txtApellido" type="text" [(ngModel)]="contacto.apellido">
+    <label>Direccion</label>
+    <input name="txtDir" type="text" [(ngModel)]="contacto.apellido">
+
+    <label>Telefono</label>
+    <input name="txtTel" type="text" [(ngModel)]="contacto.apellido">
 
     <button (click)="guardar()">Guardar</button>
 
